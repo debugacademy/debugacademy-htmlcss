@@ -1,0 +1,10 @@
+/** You can edit this entire document **/
+
+.outer-wrapper {
+  width: 100%;
+}
+.content-wrapper {
+  width:100%;
+  max-width: 1010px;
+  margin: 0 auto;
+}
