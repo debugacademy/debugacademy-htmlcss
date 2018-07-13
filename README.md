@@ -74,3 +74,27 @@ Now that we have our welcome section's HTML written, we will use CSS to style an
   - The background image should *only* repeat horizontally
   - Background image aligned at the *top* of the div
   - Background color's Hex code: #3eada7
+
+### Code the Step 1 section
+For this task, we will code this hero section:  
+![Design's Step 1 Section](./continuousgood/images/previews/step1.png)  
+
+#### Code the Step 1 section's HTML  
+Edit the file named homepage.html. The step 1 section's HTML code should replace the line that says `<!-- The "Step 1" section -->`.  
+
+The welcome section consists of the following elements:  
+- The `<h2>` heading tag for the ("Step 1") text  
+- An unordered list `<ul>` with 8 list items `<li>`. You can enter any placeholder text for that section.  
+- Within each list item, there should be:   
+  - An image element `<img>` containing this image: `images/causepic.png`   
+  - A link element `<a>` containing a few words  
+
+#### Code the Step 1 section's CSS  
+Now that we have our welcome section's HTML written, we will use CSS to style and arrange it.  
+
+- Set the section's background image to: `images/section-3-top-squiggle-border.jpg`
+  - The background image should *only* repeat horizontally
+  - Background image aligned at the *top* of the div
+  - Background color's Hex code: #fdfdff
+- Set the links' `<a>` background image as `images/purple-cause-prehover.png`  
+  - When hovering over the link, change the background image to `images/purple-cause-hover.png`
