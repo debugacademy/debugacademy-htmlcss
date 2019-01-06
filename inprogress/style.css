@@ -1,0 +1,59 @@
+/** You can edit this entire document **/
+
+.outer-wrapper {
+  width: 100%;
+}
+.content-wrapper {
+  width:100%;
+  max-width: 1010px;
+  margin: 0 auto;
+}
+
+body {
+	font-family: roboto;
+}
+
+h2 {
+	text-align: center;
+}
+
+/*Navbar CSS*/
+
+header h1 {
+	background-image: url("images/logo.jpg");
+	background-repeat: no-repeat;
+	color: transparent;
+	height: 60px;
+	width: 400px;
+	display: inline-block;
+	margin: 0;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+}
+nav li {
+	margin-top: 10px;
+	list-style: none;
+	display: inline-block;
+}
+
+nav li a {
+	background-color: white;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	color: #309FF0;
+	padding: 12px 10px;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	background-color: #309FF0;
+	color: white;
+}
